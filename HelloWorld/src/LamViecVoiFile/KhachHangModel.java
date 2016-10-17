@@ -1,9 +1,11 @@
 package LamViecVoiFile;
 
+import java.io.Serializable;
+
 /**
  * Created by joker on 17/10/2016.
  */
-public class KhachHangModel {
+public class KhachHangModel implements Serializable{
     private String maKH;
     private String tenKH;
 
